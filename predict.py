@@ -2,7 +2,7 @@ import streamlit as st
 from functools import partial
 import torch
 import numpy as np
-from keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 
 alphabet = 'NACGT'
 dna2int = { a: i for a, i in zip(alphabet, range(5))}
