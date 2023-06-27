@@ -1,5 +1,0 @@
-streamlit
-functools
-torch
-numpy
-tensorflow
